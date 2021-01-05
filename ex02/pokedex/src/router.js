@@ -12,7 +12,7 @@ export default new Router({
     component: Pokedex
     },
     {
-    path: '/pokemon',
+    path: '/pokemon/:id',
     name: 'pokemon',
     component: Pokemon
     }
